@@ -1,0 +1,22 @@
+.commContainer{
+    max-width: 1140px;
+    margin: 40px auto;
+    min-height: 100vh;
+    
+    div{
+        background-color: #282828;
+        border: 2px solid #10A37F;
+        border-radius: 40px;
+        margin: 12px 0;
+        padding: 20px;
+    }
+
+    p{
+        padding: 2px 0;
+        letter-spacing: .4px;
+    }
+    
+    span{
+        color: #10A37F;
+    }
+}

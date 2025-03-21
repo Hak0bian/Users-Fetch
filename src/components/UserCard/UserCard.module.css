@@ -1,0 +1,32 @@
+
+.userCard{
+    min-width: 320px;
+    padding: 20px;
+    background-color: #282828;
+    border: 1px solid #10A37F;
+    font-size: 14px;
+    word-wrap: break-word;
+    white-space: wrap;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+    
+    &:hover{
+        box-shadow: 0 0 8px #19C37D;
+    }
+}
+
+.imgDiv{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.userImange{
+    width: 150px;
+    border-radius: 50%;
+}
+
+td{
+    padding: 2px 0;
+    padding-left: 8px;
+}

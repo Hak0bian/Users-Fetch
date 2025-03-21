@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    color: white;
+    background-color: #202123;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.active{
+    color: #10A37F !important;
+}
