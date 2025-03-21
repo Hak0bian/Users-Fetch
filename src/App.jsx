@@ -12,11 +12,10 @@ function App() {
       fetch("https://jsonplaceholder.typicode.com/users")
         .then(res => res.json())
         .then(data => setUsers(data))
-        .catch(error => console.error("Error fetching users:", error))
     }
 
     getUsers()
-  }, [])
+  }, [users])
   
 
   return (

@@ -3,14 +3,14 @@ import { useParams } from "react-router-dom"
 import st from "./PostComment.module.css"
 
 const PostComments = () => {
-    const [comments, setComments] = useState([])
-    const {postId} = useParams();
+  const [comments, setComments] = useState([])
+  const {postId} = useParams();
 
-    useEffect(() => {
-        fetch(`https://jsonplaceholder.typicode.com/comments?postId=${postId}`)
-        .then((res) => res.json())
-        .then((res) => setComments(res))
-    }, [postId])
+  useEffect(() => {
+      fetch(`https://jsonplaceholder.typicode.com/comments?postId=${postId}`)
+      .then((res) => res.json())
+      .then((res) => setComments(res))
+  }, [postId])
     
 
   return (
